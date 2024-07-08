@@ -11,7 +11,7 @@ descrizione	                Grazie a una gamma di motori diesel Ford EcoBlue
 data_inserimento	        07/07/2024                                              DATE                        NULL
 venduta	                    No                                                      BOOLEAN                     NOT_NULL
 foto	                    foto.jpg                                                VARCHAR(255)                NULL
-id_concessionario	        1385094363                                              SMALLINT        UNSIGNED    NOT_NULL
+id_concessionario	        1385094363                                              SMALLINT        UNSIGNED    NOT_NULL                      UNIQUE
 colore	                    Giallo                                                  VARCHAR(20)                 NOT_NULL
 n_porte	                    5                                                       TINYINT(5)      UNSIGNED    NOT_NULL
 cambio                      Automatico                                              VARCHAR(20)
