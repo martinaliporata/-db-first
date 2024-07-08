@@ -1,0 +1,22 @@
+id	                        14958959873                                             TINYINT(255)    UNSIGNED    NOT_NULL     PRIMARY_KEY      UNIQUE        AUTO_INCREMENT
+marca	                    Ford                                                    VARHCAR(20)                 NOT_NULL
+modello	                    Rnager Wildtrak                                         VARCHAR(20)                 NOT_NULL
+anno_immatricolazione	    2020                                                    YEAR                        NOT_NULL
+chilometraggio	            40000                                                   MEDIUMINT       UNSIGNED    NOT_NULL
+alimentazione	            Elettrica                                               VARCHAR(20)                 NOT_NULL
+prezzo	                    40000.00                                                FLOAT(8,2)      UNSIGNED    NULL
+descrizione	                Grazie a una gamma di motori diesel Ford EcoBlue 
+                            di ultima generazione, il nuovo Ranger è più potente 
+                            ed efficiente                                           TEXT                        NULL
+data_inserimento	        07/07/2024                                              DATE                        NULL
+venduta	                    No                                                      BOOLEAN                     NOT_NULL
+foto	                    foto.jpg                                                VARCHAR(255)                NULL
+id_concessionario	        1385094363                                              SMALLINT        UNSIGNED    NOT_NULL
+colore	                    Giallo                                                  VARCHAR(20)                 NOT_NULL
+n_porte	                    5                                                       TINYINT(5)      UNSIGNED    NOT_NULL
+cambio                      Automatico                                              VARCHAR(20)
+stato                       0                                                       BOOLEAN                     NOT_NULL
+cilindrata                  1997 cm3                                                SMALLINT        UNSIGNED 
+potenza                     205CV                                                   SMALLINT        UNSIGNED
+n_posti                     5                                                       TINYINT         UNSIGNED    NOT_NULL 
+consumo_medio               8.8 l/100 Km                                            TINYINT         UNSIGNED    NOT_NULL 
